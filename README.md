@@ -9,8 +9,11 @@ Este proyecto tiene como objetivo crear contenedores Docker para una aplicación
 
 2. **Ajustar la configuración en `src/persistence/sqlite.js`:**
    - Asegúrate de que la configuración refleje el nombre del usuario definido en el archivo `.env`.
+   - Esta en la linea 3 del archivo, el apartado de /home/myuser/app/todos/todo.db
    - Verifica que la ruta del archivo SQLite incluya el nombre de usuario correcto.
+   - Ejemplo: /home/newuser/app/todos/todo.db
 
+   
 3. **Construir y levantar los contenedores:**
    - Ejecuta el siguiente comando para construir la imagen Docker y levantar los contenedores:
      ```sh
